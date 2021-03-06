@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main(){
+    double FN, SN, PD;
+    cout << "Enter two numbers: ";
+    cin >> FN >> SN;
+    PD = FN * SN;  
+    cout << "Product = " << PD;    
+    return 0;
+}
